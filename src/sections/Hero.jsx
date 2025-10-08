@@ -8,13 +8,13 @@ import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
     return (
-        <section className='bg-gradient-to-r from-gray-900 to-slate-900 text-white flex  md:h-screen md:py-20 justify-between  px-4 flex-col md:flex-row md:px-20 items-center'>
-            <div className="content w-full md:max-w-3xl p-4 flex flex-col gap-2 mb-30 md:mb-0 pt-20 sm:pt-0">
+        <section className='bg-gradient-to-r from-gray-900 to-slate-900 text-white flex  md:py-20 justify-between  px-10 flex-col lg:flex-row sm:p-20 items-center lg:h-screen relative top-10 mb-10'>
+            <div className="content w-full md:max-w-3xl p-4 flex flex-col gap-2  md:mb-0 pt-20 sm:pt-0">
                 <h1 className='font-anta text-2xl md:text-5xl'>Hi, I am Anjul</h1>
                 <h2 className='text-cyan-400 text-center text-2xl sm:text-4xl font-freehand'>
                     <Typewriter
                         options={{
-                            strings: ['Frontend Developer','and', 'Sofware Engineer'],
+                            strings: ['Frontend Developer', 'and', 'Sofware Engineer'],
                             autoStart: true,
                             loop: true
                         }}

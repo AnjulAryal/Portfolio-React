@@ -5,6 +5,10 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './sections/hero'
 import Footer from './components/Footer'
+import About from './sections/About'
+import EducationTimeline from './sections/EducationTimeline'
+import Skills from './sections/Skills'
+import Projects from './sections/Projects'
 
 function App() {
 
@@ -12,6 +16,10 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
+      <About/>
+      <EducationTimeline/>
+      <Skills/>
+      <Projects/>
       <Footer/>
     </>
   )
