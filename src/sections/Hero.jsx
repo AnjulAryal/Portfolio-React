@@ -27,13 +27,13 @@ const Hero = () => {
                 <div className="programming-icons flex gap-4 mt-4 items-center justify-start">
                     <FaHtml5 className='text-4xl inline-block mr- text-orange-500 transition-all duration-300 ease-in cursor-pointer' />
                     <IoLogoCss3 className='text-4xl inline-block mr-2 hover:text-blue-500 transition-all duration-300 ease-in cursor-pointer' />
-                    <FaReact className='text-4xl inline-block mr-2 hover:text-sky-400 transition-all duration-300 ease-in cursor-pointer' />
+                    <FaReact className='text-4xl inline-block mr-2 text-sky-400 transition-all duration-300 ease-in cursor-pointer animate-spin' />
                     <RiTailwindCssFill className='text-4xl inline-block mr-2 hover:text-cyan-400 transition-all duration-300 ease-in cursor-pointer' />
                 </div>
                 <button className='bg-cyan-500 text-white max-w-32 border-none rounded-lg p-2 cursor-pointer my-10 shadow-lg hover:shadow-cyan-500/50 transition-all duration-700 ease-in-out hover:p-3'> <a href="../assets/Anjul Aryal Cv frontend(1).pdf" download>Resume</a></button>
             </div>
             <div className="img p-4 max-w-xl flex items-center ">
-                <img src={heroImg} alt="Hero Image" className='w-full h-auto max-w-3xl  object-center hover:max-w-4xl transition-all duration-1000 ease-out sm:min-w-74' />
+                <img src={heroImg} alt="Hero Image" className='w-full h-auto max-w-3xl  object-center transition-all duration-1000 ease-out sm:min-w-74' />
             </div>
         </section>
     )

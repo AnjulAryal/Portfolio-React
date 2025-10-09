@@ -37,11 +37,11 @@ const Projects = () => {
             <div className='flex flex-col gap-8 items-center md:flex-row justify-center flex-wrap'  >
                 {
                     projects.map((project,index)=>(
-                        <div className="project text-white bg-slate-700 p-4 rounded-[5px] w-full max-w-lg hover:shadow-xl  shadow-cyan-200/20 transition-all duration-300 ease-linear" key={index} bg-slate-800>
+                        <div className="project text-white bg-slate-700 p-4 rounded-[5px] w-full max-w-sm min-h-110 hover:shadow-xl  shadow-cyan-200/20 transition-all duration-300 ease-linear " key={index} >
                             <div className="project-img h-50 overflow-hidden mb-4 w-full ">
                                 <img src={project.imageUrl} alt={project.title} className='w-full h-full object-cover'/>
                             </div>
-                            <h2 className='text-cyan-300'>{project.title}</h2>
+                            <h2 className='text-cyan-300 text-center text-xl font-bold'>{project.title}</h2>
                             <p className='text-sm text-gray-400'>{project.description}</p>
                             <div className='flex justify-center mt-2'>
                                 <button className='bg-cyan-500 text-white max-w-32 border-none rounded-lg p-2 cursor-pointer my-3 shadow-lg hover:shadow-cyan-500/50 transition-all duration-700 ease-in-out hover:p-3'><a href={project.projectUrl}>View Project</a></button>

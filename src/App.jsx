@@ -9,7 +9,7 @@ import About from './sections/About'
 import EducationTimeline from './sections/EducationTimeline'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
-
+import Contact from './sections/Contact'
 function App() {
 
   return (
@@ -20,6 +20,7 @@ function App() {
       <EducationTimeline/>
       <Skills/>
       <Projects/>
+      <Contact/>
       <Footer/>
     </>
   )

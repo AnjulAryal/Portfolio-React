@@ -25,6 +25,7 @@ const Navbar = () => {
                 <li className='cursor-pointer hover:text-cyan-400  transition-all duration-500 ease-in-out hover:text-lg'>About</li>
                 <li className='cursor-pointer hover:text-cyan-400  transition-all duration-500 ease-in-out hover:text-lg'>Education</li>
                 <li className='cursor-pointer hover:text-cyan-400  transition-all duration-500 ease-in-out hover:text-lg'>Skills</li>
+                <li className='cursor-pointer hover:text-cyan-400  transition-all duration-500 ease-in-out hover:text-lg'>Projects</li>
                 <li className='cursor-pointer hover:text-cyan-400  transition-all duration-500 ease-in-out hover:text-lg'>Contact</li>
             </ul>
         </nav>  
